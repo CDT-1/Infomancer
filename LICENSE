@@ -1,27 +1,3 @@
-跳转到正文
-自由软件支持者：
-email address
- 	加入 FSF
- [GNU头像] GNU操作系统
-由自由软件基金会资助
- [搜索 www.gnu.org]   [其他语言]
-关于 GNU 哲学 许可证 教育 软件 发行版 文档 恶意软件 帮助 GNU 音视频 GNU 艺术 欢乐 GNU 人物 软件目录 硬件 网站地图
-这是针对英文原版页面的中文翻译。
-
-GNU 宽通用公共许可证
-[LGPLv3 标识]
-许可证内容
-
-为什么你的下一个库不应该使用 Lesser GPL
-GNU 许可证常见问题
-如何在你的软件中使用 GNU 许可证
-LGPL 的翻译版
-GNU LGPL 的其他格式：纯文本, Docbook, 标准 HTML, LaTeX, Texinfo, Markdown, ODF, RTF, LGPL+GPL
-可以用在你的项目中的 LGPLv3 标识
-GNU LGPL 的早期版本
-如果发现有人可能违反了 LGPL，你应该怎么做
-本许可证是一个在 GNU 通用公共许可证 之上添加了一系列额外许可的许可证。更多关于如何使用该许可证发布软件的信息，请参看我们的许可证 指导页面。
-
 GNU LESSER GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
@@ -78,22 +54,3 @@ The Free Software Foundation may publish revised and/or new versions of the GNU 
 Each version is given a distinguishing version number. If the Library as you received it specifies that a certain numbered version of the GNU Lesser General Public License “or any later version” applies to it, you have the option of following the terms and conditions either of that published version or of any later version published by the Free Software Foundation. If the Library as you received it does not specify a version number of the GNU Lesser General Public License, you may choose any version of the GNU Lesser General Public License ever published by the Free Software Foundation.
 
 If the Library as you received it specifies that a proxy can decide whether future versions of the GNU Lesser General Public License shall apply, that proxy's public statement of acceptance of any version is permanent authorization for you to choose that version for the Library.
-
-▲
- [FSF 标志] “自由软件基金会（FSF）是一个非盈利组织。我们的使命是在全球范围内促进计算机用户的自由。我们捍卫所有软件用户的权利。”
-
-加入 捐助 购物
-请将有关自由软件基金会(FSF) & GNU的一般性问题发送到<gnu@gnu.org>。也可以通过其他联系方法联系自由软件基金会(FSF)。有关失效链接或其他错误和建议，请发送邮件到<webmasters@gnu.org>。
-
-我们尽最大努力来提供精准和高质量的翻译，但难免会存在错误和不足。如果您在这方面有评论或一般性的建议，请发送至 <web-translators@gnu.org>。
-
-关于进行协调与提交翻译的更多信息参见 《译者指南》。
-
-版权信息如上。
-
-允许任何人全文逐字复制和分发此许可证文件，但是不能修改内容。
-
-版权侵权通知
-
-翻译团队：<CTT>，2019，2021-2023。
-最后更新： $Date: 2023/11/30 10:13:51 $
