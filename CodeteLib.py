@@ -14,7 +14,7 @@ gameTitle = """    ____            ____
    / /    / __ \  / /_   / __ \  / __ `__ \ / __ `/  / __ \ / ___/ / _ \  / ___/
  _/ /    / / / / / __/  / /_/ / / / / / / // /_/ /  / / / // /__  /  __/ / /    
 /___/   /_/ /_/ /_/     \____/ /_/ /_/ /_/ \__,_/  /_/ /_/ \___/  \___/ /_/     
-                                                                                
+
 """
 CodeteLogo = """███████████
 █         █
@@ -37,6 +37,7 @@ languages = """Please choose your language 请选择您的语言：
 
 def cls():
     os.system("cls")
+
 
 def getLanguage() -> str:
     while True:
@@ -80,19 +81,21 @@ def getLanguage() -> str:
                 if s == "是":
                     return "zh_TW"
 
+
 # This function will remove a line from a file.
 # From https://zhuanlan.zhihu.com/p/678680796
-def remove_line(fileName,lineToSkip):
-    with open(fileName,'r', encoding='utf-8') as read_file:
+def remove_line(fileName, lineToSkip):
+    with open(fileName, 'r', encoding='utf-8') as read_file:
         lines = read_file.readlines()
     currentLine = 1
-    with open(fileName,'w', encoding='utf-8') as write_file:
+    with open(fileName, 'w', encoding='utf-8') as write_file:
         for line in lines:
             if currentLine == lineToSkip:
                 pass
             else:
                 write_file.write(line)
             currentLine += 1
+
 
 # This function will change the level.
 def changeLevel(levelTo, dataFileName='data.imd'):
@@ -102,6 +105,7 @@ def changeLevel(levelTo, dataFileName='data.imd'):
     with open(dataFileName, 'w', encoding='utf-8') as file:
         file.writelines(lines)
 
+
 def getIP():
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -110,14 +114,17 @@ def getIP():
     finally:
         s.close()
     return ip
+
+
 def getToken():
     return jwt.encode(
-    {"exp": datetime.datetime.now() + datetime.timedelta(days=1),
-     "iss": "CODETE",
-     "data": getIP()},
-    "InfomancerTokenKey",
-    algorithm = "HS256",
+        {"exp": datetime.datetime.now() + datetime.timedelta(days=1),
+         "iss": "CODETE",
+         "data": getIP()},
+        "InfomancerTokenKey",
+        algorithm="HS256",
     )
+
 
 def decodeToken(token):
     try:
@@ -125,6 +132,7 @@ def decodeToken(token):
         return decoded_token
     except:
         return False
+
 
 def checkToken(token):
     if decodeToken(token):
